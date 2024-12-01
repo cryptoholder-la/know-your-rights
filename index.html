@@ -1,0 +1,1037 @@
+<html><head><base href="." /><meta charset="UTF-8" /> 
+  <title>Renters Rights Guide - Los Angeles & California</title>
+  <style>
+  @font-face {
+    font-family: 'Gothic';
+    src: url('/GOTHICB.TTF') format('truetype');
+  }
+  
+  :root {
+    --primary: #2b5797;
+    --secondary: #f0f4f8;
+    --text: #333;
+    --accent: #e63946;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    font-family: 'Gothic', 'Open Sans', sans-serif;
+    background: var(--primary);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    background: var(--secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav select {
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .topic {
+    border-left: 4px solid var(--primary);
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .highlight {
+    background: #fff3cd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  
+  .form-link {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0.5rem 0;
+  }
+  
+  .form-link:hover {
+    opacity: 0.9;
+  }
+  
+  #language-selector {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .index-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: var(--secondary);
+    border-radius: 4px;
+  }
+  
+  .action-plan {
+    background: #e8f4f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  .action-plan ol {
+    margin-left: 1.5rem;
+  }
+  
+  .warning-box {
+    background: #ffe5e5;
+    border-left: 4px solid var(--accent);
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .example-box {
+    background: #e8f8e8;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--primary);
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+  }
+  
+  .pdf-section {
+    background: #f8f9fa;
+    padding: 2rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+  
+  .pdf-content {
+    max-height: 800px;
+    overflow-y: auto;
+    padding: 2rem;
+    background: white;
+    border: 1px solid #dee2e6;
+    margin: 1rem 0;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 1rem 0;
+    gap: 0.5rem;
+  }
+  
+  .download-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .handbook-content {
+    line-height: 1.6;
+  }
+  
+  .toc-list {
+    list-style: none;
+    margin: 1rem 0;
+  }
+  
+  .toc-list li {
+    margin: 0.5rem 0;
+    padding: 0.25rem 0;
+  }
+  
+  .chapter {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .contact-info {
+    background: var(--secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  
+  .contact-info h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .glossary-list {
+    margin: 1rem 0;
+  }
+  
+  .glossary-list dt {
+    font-weight: 600;
+    color: var(--primary);
+    margin-top: 1rem;
+  }
+  
+  .glossary-list dd {
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gothic', 'Open Sans', sans-serif;
+  }
+  
+  .audio-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(43, 87, 151, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+  }
+  
+  .audio-controls button {
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .audio-controls button:hover {
+    background: #f0f0f0;
+  }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+  <header>
+    <h1>Know Your Rights: LA Renters Guide</h1>
+    <p>A comprehensive guide to renter rights in Los Angeles and California</p>
+    
+    <select id="language-selector" onchange="translatePage(this.value)">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+      <option value="zh">中文</option>
+      <option value="ko">한국어</option>
+    </select>
+  </header>
+  
+  <nav>
+    <select id="quick-nav" onchange="jumpToSection(this.value)">
+      <option value="">Quick Navigation</option>
+      <option value="ca-rights">California Rights</option>
+      <option value="la-rights">Los Angeles Rights</option>
+      <option value="common-abuses">Common Abuses</option>
+      <option value="tenant-requests">Allowable Requests</option>
+      <option value="ellis-act">Ellis Act</option>
+      <option value="rent-control">Rent Control</option>
+      <option value="forms">Forms & Resources</option>
+      <option value="eviction-process">Eviction Process</option>
+      <option value="towing-rights">Towing Rights</option>
+      <option value="landlord-loopholes">Landlord Loopholes</option>
+      <option value="financial-issues">Financial Issues</option>
+      <option value="rent-control-guide">LA Rent Control Guide</option>
+      <option value="pasadena-charter">Pasadena Charter Amendment</option>
+      <option value="civil-rights">California Civil Rights</option>
+      <option value="glossary">Definitions & Glossary</option>
+      <option value="ca-landlord-laws">California Landlord-Tenant Laws</option>
+    </select>
+  </nav>
+  
+  <div class="section" id="financial-issues">
+    <h2>Common Financial Issues & Disputes</h2>
+    
+    <div class="topic">
+      <h3>Double Charging / Software Issues</h3>
+      <div class="example-box">
+        <h4>Real Example Scenario:</h4>
+        <p>Property management software erroneously charged a tenant twice monthly for 6 months, totaling $5,000 in overcharges.</p>
+        <div class="action-plan">
+          <h4>Steps to Resolve:</h4>
+          <ol>
+            <li>Document all charges with screenshots and bank statements</li>
+            <li>Send written notice to property management via certified mail</li>
+            <li>File complaint with Consumer Financial Protection Bureau</li>
+            <li>Contact bank to dispute unauthorized charges</li>
+            <li>File small claims court case if not resolved (up to $10,000)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Property Sale to Developers</h3>
+      <div class="example-box">
+        <h4>Scenario: Building Sold to Developer</h4>
+        <p>Your rights when building ownership changes:</p>
+        <ul>
+          <li>Existing lease remains valid through term</li>
+          <li>Security deposit must transfer to new owner</li>
+          <li>Written notice of ownership change required</li>
+          <li>RSO protections continue if applicable</li>
+        </ul>
+        
+        <div class="warning-box">
+          <h4>Developer Tactics to Watch For:</h4>
+          <ul>
+            <li>Pressuring buyouts without providing written offers</li>
+            <li>Claiming false "major remodeling" plans</li>
+            <li>Reducing services to force moveouts</li>
+            <li>Harassment through constant construction</li>
+          </ul>
+        </div>
+  
+        <div class="action-plan">
+          <h4>Protection Steps:</h4>
+          <ol>
+            <li>Document all communication with new owner</li>
+            <li>Record all construction noise/disruption</li>
+            <li>Join or form tenant association</li>
+            <li>File complaint with Housing Department for harassment</li>
+            <li>Request written buyout offer (required by law)</li>
+            <li>30-day cooling off period for any buyout agreement</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Common Software/Billing Issues</h3>
+      <div class="example-box">
+        <h4>Documented Cases:</h4>
+        <ul>
+          <li>Late fees charged despite on-time payment</li>
+          <li>Rent payments applied to wrong unit</li>
+          <li>Multiple charges for single payment</li>
+          <li>Failure to credit payments made</li>
+        </ul>
+  
+        <div class="warning-box">
+          <h4>Always Keep:</h4>
+          <ul>
+            <li>Screenshots of online payments</li>
+            <li>Bank statements showing withdrawals</li>
+            <li>Email confirmations</li>
+            <li>Receipt numbers</li>
+            <li>Names of staff spoken with</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Legal Fee Recovery</h3>
+      <p>If you prevail in a lawsuit against your landlord, you may be entitled to:</p>
+      <ul>
+        <li>Attorney fees (if lease provides for landlord attorney fees)</li>
+        <li>Statutory damages ($2,000 per harassment incident)</li>
+        <li>Actual damages (money lost due to violations)</li>
+        <li>Triple damages for willful withholding of security deposit</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="section" id="pasadena-charter">
+    <h2>Pasadena Fair and Equitable Housing Charter Amendment</h2>
+    
+    <div class="topic">
+      <h3>Overview and Purpose</h3>
+      <p>Article XVIII of the Pasadena City Charter establishes comprehensive rent control and tenant protections, including:</p>
+      <ul>
+        <li>Rent increase limitations</li>
+        <li>Just cause eviction requirements</li>
+        <li>Tenant relocation assistance</li>
+        <li>Creation of Rental Housing Board</li>
+        <li>Rental Registry requirements</li>
+      </ul>
+    </div>
+  
+    <div class="topic">
+      <h3>Key Protections</h3>
+      <div class="example-box">
+        <h4>Rent Control</h4>
+        <ul>
+          <li>Annual rent increases limited to 75% of CPI increase</li>
+          <li>Only one rent increase allowed per 12-month period</li>
+          <li>Base rent established as of May 17, 2021</li>
+          <li>Landlords must register units and rents with Rental Board</li>
+        </ul>
+  
+        <h4>Just Cause Eviction Protection</h4>
+        <ul>
+          <li>Landlords can only evict for specific enumerated reasons</li>
+          <li>Written notice and opportunity to cure required</li>
+          <li>Relocation assistance required for no-fault evictions</li>
+          <li>Additional protections for elderly and disabled tenants</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Rental Housing Board</h3>
+      <div class="action-plan">
+        <h4>Board Composition</h4>
+        <ul>
+          <li>11 total members appointed by City Council</li>
+          <li>7 must be tenants (one from each district)</li>
+          <li>4 at-large members</li>
+          <li>2 alternate members</li>
+          <li>Members serve 4-year staggered terms</li>
+        </ul>
+  
+        <h4>Board Powers</h4>
+        <ul>
+          <li>Set annual rent adjustment amounts</li>
+          <li>Hear petitions for individual rent adjustments</li>
+          <li>Maintain rental registry</li>
+          <li>Issue regulations and enforce ordinance</li>
+          <li>Provide education and outreach</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Tenant Rights Under Amendment</h3>
+      <div class="example-box">
+        <h4>Right to Petition</h4>
+        <p>Tenants can petition for rent decreases due to:</p>
+        <ul>
+          <li>Reduction in housing services</li>
+          <li>Failure to maintain habitable conditions</li>
+          <li>Unlawful rent charges</li>
+        </ul>
+  
+        <h4>Protection from Retaliation</h4>
+        <ul>
+          <li>Landlords prohibited from harassing tenants</li>
+          <li>No eviction or rent increase in retaliation</li>
+          <li>Right to organize and join tenant associations</li>
+        </ul>
+      </div>
+    </div>
+  
+    <a href="/los_angeles_landlord_tenant_handbook_for_rent_stabilized_units.pdf" 
+       class="download-btn" download>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+      Download Full Charter Amendment Text
+    </a>
+  </div>
+  
+  <div class="section" id="common-pitfalls">
+    <h2>What To Do If... (Top 25 Renter Pitfalls)</h2>
+  
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>1. Your Landlord Enters Without Notice</h3>
+        <div class="action-plan">
+          <p>Required: 24-hour written notice except emergencies</p>
+          <ol>
+            <li>Document date/time of unauthorized entry</li>
+            <li>Send written objection via certified mail</li>
+            <li>Install legal security camera facing entry</li>
+            <li>File complaint with local housing authority</li>
+            <li>Consider restraining order for repeated violations</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>2. Maintenance Requests Are Ignored</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Submit requests in writing, keep copies</li>
+            <li>Document issues with photos/video</li>
+            <li>After 30 days, file complaint with housing department</li>
+            <li>Consider repair-and-deduct remedy</li>
+            <li>Request housing inspection</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>3. Mold Is Discovered</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Photograph evidence</li>
+            <li>Request professional inspection</li>
+            <li>Submit written notice to landlord</li>
+            <li>Get medical documentation if health affected</li>
+            <li>Contact health department</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>4. Rent Is Increased Above Legal Limit</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Verify local rent control laws</li>
+            <li>Calculate allowable increase percentage</li>
+            <li>Request written justification</li>
+            <li>File petition with rent board</li>
+            <li>Consider tenant union support</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>5. Security Deposit Not Returned</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Send demand letter after 21 days</li>
+            <li>Request itemized deductions</li>
+            <li>Dispute unreasonable charges</li>
+            <li>File small claims court case</li>
+            <li>Seek triple damages if withheld in bad faith</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>6. Neighbors Creating Excessive Noise</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Document incidents with recordings</li>
+            <li>Report to property management</li>
+            <li>File police reports for violations</li>
+            <li>Request mediation services</li>
+            <li>Break lease for breach of quiet enjoyment</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>7. Parking Space Is Taken</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Document assigned space in lease</li>
+            <li>Photograph violations</li>
+            <li>Report to property management</li>
+            <li>Request parking enforcement</li>
+            <li>Seek rent reduction for loss of amenity</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>8. Appliances Stop Working</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Report malfunction immediately</li>
+            <li>Document loss of food/expenses</li>
+            <li>Request replacement timeline</li>
+            <li>Seek compensation for losses</li>
+            <li>File complaint if not resolved</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>9. Pest Infestation Occurs</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Document infestation with photos</li>
+            <li>Request professional extermination</li>
+            <li>Keep records of all treatments</li>
+            <li>Report to health department if needed</li>
+            <li>Consider temporary relocation</li>
+          </ol>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <h3>10. Construction Disrupts Living Space</h3>
+        <div class="action-plan">
+          <ol>
+            <li>Request construction schedule</li>
+            <li>Document noise/dust levels</li>
+            <li>Seek rent reduction during work</li>
+            <li>Report unsafe conditions</li>
+            <li>Request alternative accommodation</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="civil-rights">
+    <h2>California Civil Rights Department (CRD) Resources</h2>
+    
+    <div class="topic">
+      <h3>Housing Discrimination Protections</h3>
+      <div class="example-box">
+        <h4>Protected Categories Under FEHA:</h4>
+        <ul>
+          <li>Race, color, ancestry, national origin</li>
+          <li>Religion</li>
+          <li>Disability (mental and physical)</li>
+          <li>Sex, gender, gender identity, gender expression</li>
+          <li>Sexual orientation</li>
+          <li>Familial status</li>
+          <li>Source of income</li>
+          <li>Marital status</li>
+          <li>Age</li>
+          <li>Medical condition</li>
+          <li>Genetic information</li>
+          <li>Immigration status</li>
+        </ul>
+  
+        <div class="action-plan">
+          <h4>How to File a Discrimination Complaint:</h4>
+          <ol>
+            <li>Document all incidents with dates, times, witnesses</li>
+            <li>Gather evidence (emails, texts, photos, videos)</li>
+            <li>File complaint within one year of discrimination</li>
+            <li>Submit through CRD website or call 800-884-1684</li>
+            <li>Participate in CRD investigation</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Common Housing Discrimination Examples</h3>
+      <div class="example-box">
+        <ul>
+          <li>Refusing to rent based on protected characteristics</li>
+          <li>Stating preferences in rental listings</li>
+          <li>Different terms, conditions, or privileges</li>
+          <li>Harassment or hostile environment</li>
+          <li>Refusing reasonable accommodations for disabilities</li>
+          <li>Discriminatory statements or advertisements</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>CRD Services & Resources</h3>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <h4>File a Complaint</h4>
+          <p>Online complaint filing system available 24/7</p>
+          <a href="https://calcivilrights.ca.gov/complaintprocess/" class="resource-link">Start Complaint Process</a>
+        </div>
+  
+        <div class="resource-card">
+          <h4>Resources & Factsheets</h4>
+          <p>Educational materials in multiple languages</p>
+          <a href="https://calcivilrights.ca.gov/resources/" class="resource-link">View Resources</a>
+        </div>
+  
+        <div class="resource-card">
+          <h4>Legal Guides</h4>
+          <p>Detailed information about your rights</p>
+          <a href="https://calcivilrights.ca.gov/legal-guides/" class="resource-link">Read Guides</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contact-info">
+      <h3>Contact CRD</h3>
+      <p>Toll Free: (800) 884-1684</p>
+      <p>TTY: (800) 700-2320</p>
+      <p>Email: contact.center@calcivilrights.ca.gov</p>
+      <a href="https://calcivilrights.ca.gov/" class="form-link">Visit CRD Website</a>
+    </div>
+  </div>
+  
+  <div class="section" id="rent-control-guide">
+    <h2>Los Angeles Rent Control Guide</h2>
+    
+    <div class="pdf-section">
+      <h3>Official LA Rent Stabilization Handbook</h3>
+      
+      <a href="/los_angeles_landlord_tenant_handbook_for_rent_stabilized_units.pdf" 
+         download="LA_Rent_Control_Guide.pdf" 
+         class="download-btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download Full PDF Guide
+      </a>
+  
+      <div class="pdf-content">
+        <h4>Table of Contents</h4>
+        <div class="handbook-content">
+          <div class="toc">
+            <h4>Table of Contents</h4>
+            <ul class="toc-list">...</ul>
+          </div>
+          
+          <div class="chapters">
+            <div class="chapter">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="glossary">
+    <h2>Definitions and Glossary of Rental Terms</h2>
+    
+    <div class="topics">
+      <div class="topic">
+        <h3>A</h3>
+        <dl class="glossary-list">
+          <dt>Abandonment Notice</dt>
+          <dd>A document used to notify a tenant that their tenancy has been terminated.</dd>
+          
+          <dt>Affordable Housing</dt>
+          <dd>Housing that is affordable to low-income families, including both owned and rental housing.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>B</h3>
+        <dl class="glossary-list">
+          <dt>Built-ins</dt>
+          <dd>Items permanently attached to a dwelling or building such as appliances, cupboards, and shelving.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>C</h3>
+        <dl class="glossary-list">
+          <dt>Cap Rate</dt>
+          <dd>Short for capitalization rate, describes the rate of return on investment (ROI) that certain properties are expected to produce.</dd>
+          
+          <dt>Capital Improvement</dt>
+          <dd>Any permanent alteration or improvement made to a property with the intent to raise its value.</dd>
+          
+          <dt>Certificate of Occupancy</dt>
+          <dd>A document confirming the property does not have structural issues and is fit for human occupancy.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>D</h3>
+        <dl class="glossary-list">
+          <dt>Debt Service</dt>
+          <dd>Money required to cover interest and principal payments on a loan or other debt for a real estate property.</dd>
+          
+          <dt>Duplex</dt>
+          <dd>A multi-family home with two units sharing a common wall, with varying floor plans.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>S</h3>
+        <dl class="glossary-list">
+          <dt>Section 8 Housing</dt>
+          <dd>A government program enabling low-income families to afford housing in the private market.</dd>
+          
+          <dt>Security Deposit</dt>
+          <dd>Refundable expenses protecting landlords from financial loss from unpaid rent or property damage.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>T</h3>
+        <dl class="glossary-list">
+          <dt>Tenancy</dt>
+          <dd>A right granted to temporarily occupy or possess real estate belonging to a landlord, commonly under a lease.</dd>
+          
+          <dt>Tenant Improvement</dt>
+          <dd>Modifications to a commercial space made specifically for a tenant, distinct from Fitting Out.</dd>
+          
+          <dt>Tenant Screening</dt>
+          <dd>The process of screening potential tenants to determine if they are suitable for a property.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>W</h3>
+        <dl class="glossary-list">
+          <dt>Warranty Deed</dt>
+          <dd>Legal document transferring ownership of real property and protecting from title defects.</dd>
+        </dl>
+      </div>
+  
+      <div class="topic">
+        <h3>Z</h3>
+        <dl class="glossary-list">
+          <dt>Zestimate</dt>
+          <dd>Zillow's estimated monthly rent price, computed using a proprietary formula.</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section" id="ca-landlord-laws">
+    <h2>California Landlord-Tenant Laws</h2>
+    
+    <div class="topic">
+      <h3>Key Laws and Regulations</h3>
+      <ul>
+        <li>Cal. Civ Code §§ 1940 – 1954 – Title 5: Hiring of Real Property</li>
+        <li>Cal. Civ Code §§ 1961 – 1962.7 – Title 5: Chapter 4: Identification of Property Owners</li>
+        <li>California Health and Safety Code</li>
+      </ul>
+    </div>
+  
+    <div class="topic">
+      <h3>Security Deposits</h3>
+      <div class="example-box">
+        <h4>Maximum Amounts</h4>
+        <ul>
+          <li>Unfurnished: 2 months' rent maximum</li>
+          <li>Furnished: 3 months' rent maximum</li>
+        </ul>
+        
+        <h4>Return Timeline</h4>
+        <ul>
+          <li>Must be returned within 21 days</li>
+          <li>Itemized deductions required if any portion withheld</li>
+          <li>Receipts required for deductions over $125</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Rent Laws</h3>
+      <div class="example-box">
+        <h4>Rent Control</h4>
+        <p>California has statewide rent control under AB 1483 Tenant Protection Act</p>
+        
+        <h4>Rent Due Dates & Payments</h4>
+        <ul>
+          <li>Due at period termination unless otherwise agreed</li>
+          <li>Must accept non-cash payment methods</li>
+          <li>Late fees must be "reasonable" (typically max 5%)</li>
+          <li>3-day grace period required before late fees</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Entry & Notice Requirements</h3>
+      <div class="example-box">
+        <h4>Notice Required</h4>
+        <ul>
+          <li>24 hours for normal entry</li>
+          <li>No notice needed for emergencies</li>
+          <li>Entry only during normal business hours</li>
+        </ul>
+        
+        <h4>Valid Entry Reasons</h4>
+        <ul>
+          <li>Necessary repairs/maintenance</li>
+          <li>Showing unit to prospective tenants</li>
+          <li>Inspecting smoke alarms</li>
+          <li>Court-ordered entry</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Required Disclosures</h3>
+      <div class="example-box">
+        <ul>
+          <li>Bed bug information and reporting procedures</li>
+          <li>Copy of lease within 15 days</li>
+          <li>Utility billing arrangements</li>
+          <li>Mold hazards</li>
+          <li>Demolition permits</li>
+          <li>Lead paint (pre-1978 buildings)</li>
+          <li>Sex offender database notice</li>
+          <li>Death on property disclosure requirements</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="topic">
+      <h3>Eviction Process</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>Valid Reasons</h4>
+          <ul>
+            <li>Nonpayment of rent</li>
+            <li>Lease violations</li>
+            <li>Illegal activity</li>
+            <li>Holdover tenancy</li>
+            <li>Property foreclosure</li>
+          </ul>
+        </div>
+  
+        <div class="timeline-item">
+          <h4>Required Notices</h4>
+          <ul>
+            <li>3 days: Nonpayment/lease violations</li>
+            <li>30/60 days: Month-to-month termination</li>
+            <li>90 days: Foreclosure eviction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="audio-controls">
+    <button onclick="toggleAudio()" id="audioButton">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+      </svg>
+    </button>
+    <span>Background Music</span>
+  </div>
+  
+  <audio id="bgMusic" loop>
+    <source src="/40_Miles BY DIVIDICUS WEBSIM LICENSED.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <script>
+  function translatePage(language) {
+      alert('Translation to ' + language + ' would occur here');
+  }
+  
+  function jumpToSection(sectionId) {
+      if (!sectionId) return;
+      
+      const element = document.getElementById(sectionId);
+      if (element) {
+          element.scrollIntoView({
+              behavior: 'smooth'
+          });
+      } else {
+          console.warn(`Section ${sectionId} not found`);
+      }
+  }
+  
+  // Add smooth scrolling to all internal links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').slice(1); // Remove the # from href
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) { // Only scroll if target element exists
+              targetElement.scrollIntoView({
+                  behavior: 'smooth'
+              });
+          }
+      });
+  });
+  
+  // Add error handling for missing sections
+  document.getElementById('quick-nav').addEventListener('change', function(e) {
+      const sectionId = e.target.value;
+      if (sectionId && !document.getElementById(sectionId)) {
+          console.warn(`Section ${sectionId} not found in document`);
+          e.target.value = ''; // Reset select to default option
+      }
+  });
+  
+  let isPlaying = false;
+  const audio = document.getElementById('bgMusic');
+  const button = document.getElementById('audioButton');
+  
+  function toggleAudio() {
+    if (isPlaying) {
+      audio.pause();
+      button.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+      </svg>`;
+    } else {
+      audio.play();
+      button.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+      </svg>`;
+    }
+    isPlaying = !isPlaying;
+  }
+  
+  // Start audio muted
+  audio.volume = 0.5;
+  </script>
+  
+  </body></html>
